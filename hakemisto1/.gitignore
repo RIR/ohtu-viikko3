@@ -1,0 +1,6 @@
+# Hakemisto .gradle
+.gradle/
+
+# Hakemisto, jonka nimi on build
+build/
+
