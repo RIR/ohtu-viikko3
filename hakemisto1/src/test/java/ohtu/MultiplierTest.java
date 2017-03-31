@@ -4,13 +4,17 @@ import static org.junit.Assert.*;
 import org.junit.Test;
 
 public class MultiplierTest {
+    final int five = 5;
+    final int one = 1;
+    final int tF=35;
+    final int seven = 7;
 
     @Test
     public void kertominenToimii() {
-        Multiplier viisi = new Multiplier(5);
+        Multiplier viisi = new Multiplier(five);
 
-        assertEquals(5, viisi.multipliedBy(1));
-        assertEquals(35, viisi.multipliedBy(7));
+        assertEquals(five, viisi.multipliedBy(one));
+        assertEquals(tF, viisi.multipliedBy(seven));
     }
 
 }
